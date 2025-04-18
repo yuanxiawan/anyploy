@@ -1,1 +1,1 @@
-akshare
+pip install --upgrade akshare
