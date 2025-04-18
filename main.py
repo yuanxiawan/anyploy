@@ -7,7 +7,7 @@ import datetime
 def get_stock_data(stock_code, date):
   """获取股票数据"""
   try:
-    df = ak.stock_daily(symbol=stock_code, start_date=date, end_date=date)
+    df = ak.stock_daily_df(symbol=stock_code, start_date=date, end_date=date)
     if not df.empty:
       return df.iloc[0]
     else:
