@@ -1,5 +1,0 @@
-name: StockDataApp
-dependencies:
-  - python=3.9
-  - pip
-  - akshare
